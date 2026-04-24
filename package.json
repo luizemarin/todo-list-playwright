@@ -1,0 +1,33 @@
+{
+  "name": "todo-list-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "show-report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizemarin/todo-list-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luizemarin/todo-list-playwright/issues"
+  },
+  "homepage": "https://github.com/luizemarin/todo-list-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "typescript": "^5.0.0"
+  }
+}
