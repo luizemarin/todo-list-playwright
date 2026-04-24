@@ -26,10 +26,13 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
+
       - name: Start services with Docker Compose
         run: |
           cd app
-          docker-compose up -d
+          docker compose up -d
 
       - name: Wait for services to be ready
         run: |
@@ -61,4 +64,4 @@ jobs:
         if: always()
         run: |
           cd app
-          docker-compose down -v
+          docker compose down -v
