@@ -240,11 +240,11 @@ O título/objetivo informado pelo usuário não é exibido ou utilizado na gera�
 
 ### **Resultado Esperado**
 
-Após a inclusão das tarefas na lista usando a IA, o campo de título/objetivo não é exibido ou utilizado.
+Após a inclusão das tarefas na lista usando a IA, o campo de título/objetivo não é exibido ou utilizado para visualização do que foi gerado.
 
 ### **Resultado Obtido**
 
-O campo de título/objetivo não exibido ou utilizado
+O campo de título/objetivo não exibido ou utilizado para visualização do que foi gerado.
 
 ### **Evidência**
 
@@ -294,7 +294,7 @@ Adicionar validação no backend para garantir que o título seja obrigatório n
 
 ---
 
-## **_[BUG-008] Delete é realizado quando informado um id inválido_**
+## **_[BUG-009] Delete é realizado quando informado um id inválido_**
 
 ### Severidade: Alto
 
@@ -331,7 +331,7 @@ Adicionar validação no backend para garantir que o ID informado seja válido n
 
 ---
 
-## **_[BUG-009] Delete é realizado quando informado um id inexistente_**
+## **_[BUG-010] Delete é realizado quando informado um id inexistente_**
 
 ### Severidade: Alto
 

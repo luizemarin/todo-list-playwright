@@ -66,7 +66,7 @@ Especificar onde e como a chave de API é armazenada, se é mascarada no campo (
 
 # Requisitos que avalio serem problemas "_Altos_".
 
-## **_[PRD-001] Nenhum tratamento de erro está especificado para falhas de IA_**
+## **_[PRD-005] Nenhum tratamento de erro está especificado para falhas de IA_**
 
 ### Requisito afetado: RF-01
 
@@ -82,7 +82,7 @@ Ajustar o RF-01 para definir a ordenação das tarefas (se será ajustada pelo u
 
 ---
 
-## **_[PRD-002] Sem validação dos campo de geração de tarefas_**
+## **_[PRD-006] Sem validação dos campo de geração de tarefas_**
 
 ### Requisito afetado: RF-02
 
@@ -97,7 +97,7 @@ Definir melhor os valores de entrada para o campo de geração de tarefas, espec
 
 ---
 
-## **_[PRD-003] Exclusão de tarefas sem confirmação_**
+## **_[PRD-007] Exclusão de tarefas sem confirmação_**
 
 ### Requisito afetado: RF-04
 
@@ -112,7 +112,7 @@ Definir um requisito para exibir uma modal de confirmação de exclusão para us
 
 ---
 
-## **_[PRD-004] Inclusão de tarefas "duplicadas"_**
+## **_[PRD-008] Inclusão de tarefas "duplicadas"_**
 
 ### Requisito afetado: RF-02
 
@@ -130,7 +130,7 @@ Definir no RF-02 se é permitido ou não criar tarefas "duplicadas".
 
 # Requisitos que avalio serem problemas "_Baixo_".
 
-## **_[PRD-001] Feedback visual ao concluir tarefa_**
+## **_[PRD-009] Feedback visual ao concluir tarefa_**
 
 ### Requisito afetado: RF-03
 
@@ -145,7 +145,7 @@ Ajustar o RF-03 para definir o feedback visual a ser exibido ao marcar uma taref
 
 ---
 
-## **_[PRD-002] Provedor de IA padrão em aberto_**
+## **_[PRD-010] Provedor de IA padrão em aberto_**
 
 ### Requisito afetado: RF-03
 
